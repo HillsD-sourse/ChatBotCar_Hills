@@ -51,3 +51,9 @@ docker compose up -d
 npx prisma db push
 npx prisma generate
 npm run dev
+
+## Схема БД
+- User — пользователи (telegram_id, username)
+- Request — запросы (статус, опции, дата)
+- Image — фото (оригинал + 3 варианта результата)
+- Статусы запросов: PENDING, PROCESSING, COMPLETED, FAILED
