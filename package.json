@@ -1,5 +1,5 @@
 {
-  "name": "cardet",
+  "name": "chatbotcar_hills",
   "version": "1.0.0",
   "description": "Car Detailing Telegram Bot",
   "main": "dist/index.js",
